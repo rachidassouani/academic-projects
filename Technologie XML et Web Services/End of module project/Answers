@@ -1,0 +1,59 @@
+A. Partie Technologie XML :
+  1. Créer une classe Java représentant une « Operation »
+ 
+ 
+
+ import java.util.Date;
+
+public class Operation {
+
+	private String type;
+	private Date date;
+	private double montant;
+	private String description;
+	
+	
+	/*
+	 * Getters & Setters
+	 */
+	
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public Date getDate() {
+		return date;
+	}
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	public double getMontant() {
+		return montant;
+	}
+	public void setMontant(double montant) {
+		this.montant = montant;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+}
+
+  
+  
+  
+  2. Créer une classe représentant un « Releve » contenant une liste d’opérations
+  3. Créer une application Java qui permet de créer un Objet Releve avec quelques opérations
+  et de sérialiser ces données dans un fichier XML.
+  4. Créer une application Java qui permet de lire et d’afficher les données du relevé du fichier
+  XML.
+  5. Créer une application Java qui permet de générer le Schéma XML représentant la
+  structure d’un relevé.
+
+B. Partie Mapping Objet XML avec Jax Binding :
+
+C. Partie Web services SOAP WSDL avec JaxWS :
